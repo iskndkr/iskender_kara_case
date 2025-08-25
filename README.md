@@ -19,6 +19,7 @@ iskender_kara_case/
 │       │   │   └── QualityAssurancePage.java
 │       │   ├── tests/             # Test packages organized by type  
 │       │   │   ├── TestBase.java  # Base test class with setup/teardown
+|       |   |   |── ApiTestBase.java  # Base test class for API tests with setup/teardown
 │       │   │   ├── ui/            # UI test classes
 │       │   │   │   └── InsiderCareersTest.java
 │       │   │   ├── api/           # API test classes
@@ -30,7 +31,7 @@ iskender_kara_case/
 │       │       ├── Driver.java    # WebDriver management
 │       │       ├── BrowserUtils.java
 │       │       ├── ConfigurationReader.java # Simple config reader
-│       │       ├── LogManager.java   # Log4j2 logging
+│       │       ├── ApiTestUtils.java   # Api utility methods
 │       │       └── ReportManager.java # ExtentReports
 │       └── resources/
 │           ├── testng.xml         # Master suite (default entry point)
