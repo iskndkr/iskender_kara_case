@@ -1,0 +1,38 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+mvn/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.metadata/
+.settings/
+.project
+.classpath
+
+# TestNG
+test-output/
+
+# JMeter
+*.jtl
+jmeter.log
+*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

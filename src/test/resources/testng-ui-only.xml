@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insider UI Tests Only">
+    
+    <!-- Chrome Browser Test -->
+    <test name="Insider Careers Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.iskender.tests.ui.InsiderCareersTest"/>
+        </classes>
+    </test>
+    
+    <!-- Firefox Browser Test -->
+    <test name="Insider Careers Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.iskender.tests.ui.InsiderCareersTest"/>
+        </classes>
+    </test>
+    
+</suite>
